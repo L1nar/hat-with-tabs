@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Шапка с вкладками</title>
+</head>
+
+<body>
+    <div class="tabcontent active" id="red">
+        <h1>Red</h1>
+        <p>Red - apple</p>
+    </div>
+    <div class="tabcontent" id="blue">
+        <h1>Blue</h1>
+        <p>Blue - ocean</p>
+    </div>
+    <div class="tabcontent" id="green">
+        <h1>Green</h1>
+        <p>Green - grass</p>
+    </div>
+    <div class="tabcontent" id="yellow">
+        <h1>Yellow</h1>
+        <p>Yellow - sun</p>
+    </div>
+    <div id="tabList">
+        <button class="tabLink" data-colour="red" id="defaultOpen">Red</button>
+        <button class="tabLink" data-colour="blue" id="defaultOpen">Blue</button>
+        <button class="tabLink" data-colour="green" id="defaultOpen">Green</button>
+        <button class="tabLink" data-colour="yellow" id="defaultOpen">Yellow</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

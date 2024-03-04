@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+/* Стили для вкладок */
+.tabcontent {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: rgb(0, 172, 0);
+}
+
+#yellow {
+    background-color: rgb(255, 217, 0);
+}
+
+/* Стили для кнопок */
+#tabList {
+    display: flex;
+}
+
+.tabLink {
+    color: white;
+    background-color: gray;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 25%;
+}
+
+.tabLink:hover {
+    transition: all 0.3s;
+    background-color: rgb(165, 164, 164);
+}
